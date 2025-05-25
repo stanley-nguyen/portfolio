@@ -1,0 +1,95 @@
+.stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stack h2 {
+    margin-bottom: 36px;
+}
+
+.stack-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(64px, 1fr));
+    gap: 32px;
+    justify-items: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    opacity: 1;
+    transition: transform 0.2s ease, opacity 5s ease;
+}
+.stack-item {
+    --item-width: 64px;
+    width: var(--item-width);
+    height: var(--item-width);
+    font-size: calc(var(--item-width) / 4);
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    transition: transform 0.5s ease, opacity 0.1s ease-out;
+}
+.stack-item.transition {
+    opacity: 0;
+    pointer-events: none;
+}
+.stack-item:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-out;
+}
+
+.stack-icon {
+    background-color: #23232333;
+    box-shadow: 0 4px 16px #00000099;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.filter-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin-bottom: 48px;
+    width: 80%;
+    gap: 0px;
+    padding: 0 4vw;
+}
+
+.filter-button:nth-child(1) {
+    grid-column: 1 / -1;
+}
+
+.filter-button {
+    flex: 1 1 auto;
+    margin-bottom: 1px;
+    border-radius: 0px;
+    background-color: #23232333;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 4px 16px #00000099;
+    transition: background-color 0.1s ease, transform 0.3s ease;
+    border: none;
+}
+.filter-button:active {
+    background-color: #00000044;
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+}
+.filter-button:focus {
+    outline: none;
+}
+.filter-button:hover {
+    background-color: #1c1c1cb0;
+}
+.filter-button.inactive {
+    background-color: #00000044;
+    color: #888888;
+    cursor: default;
+    transform: none;
+    transition: background-color 0.1s ease-out;
+}
