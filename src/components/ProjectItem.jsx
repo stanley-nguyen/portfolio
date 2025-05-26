@@ -4,7 +4,7 @@ import { allTechs } from "./Stack";
 const extraTechs = [
     {
         name: 'OAuth2',
-        icon: 'https://raw.githubusercontent.com/devicons/devicon/develop/icons/oauth/oauth-original.svg',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oauth/oauth-original.svg',
     },
     {
         name: 'Whisper AI',
@@ -16,15 +16,23 @@ const extraTechs = [
     },
     {
         name: 'C#',
-        icon: 'https://raw.githubusercontent.com/devicons/devicon/develop/icons/csharp/csharp-original.svg',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg',
     },
     {
         name: 'NumPy',
-        icon: 'https://raw.githubusercontent.com/devicons/devicon/develop/icons/numpy/numpy-original.svg',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg',
     },
     {
         name: 'Matplotlib',
-        icon: 'https://raw.githubusercontent.com/devicons/devicon/develop/icons/matplotlib/matplotlib-original.svg',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg',
+    },
+    {
+        name: 'Unity',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg',
+    },
+    {
+        name: 'Tauri',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tauri/tauri-original.svg',
     }
 ];
 
