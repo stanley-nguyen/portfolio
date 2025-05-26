@@ -1,0 +1,120 @@
+.project-item {
+    display: grid;
+    align-items: center;
+    border: 1px solid #0000004a;
+    border-radius: 8px;
+    background-color: #39393946;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 50px #353535a0;
+}
+.project-item:hover {
+    background-color: #39393966;
+    box-shadow: 0 0 10px #00000066, inset 0 0 80px #51515158;
+}
+
+.project-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.project-title a {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.project-title a:hover {
+    color: #ffffffd0;
+    text-decoration: underline;
+}
+
+.project-subtitle {
+    font-size: 1.2em;
+    color: #cccccc;
+    margin-top: 0px;
+}
+
+.project-description {
+    font-size: 1em;
+    padding: 20px 30px 20px 20px;
+    border-top: 1px solid #0000004a;
+    text-align: left;
+}
+
+.project-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    border-radius: 8px;
+    background-color: #00000054;
+    color: #ffffff;
+    font-size: 0.9em;
+    box-shadow: 0 0 8px #00000066;
+    transition: transform 0.2s ease-out;
+}
+.tech-item:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in;
+}
+
+.project-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #0000004a;
+}
+
+.project-links {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-items: center;
+    gap: 10px;
+}
+.gh-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #00000054;
+    width: 32px;
+    height: 32px;
+    transition: all 0.2s ease-in-out;
+}
+.gh-link:hover {
+    background-color: #00000066;
+    transform: scale(1.1) rotate(-5deg);
+    transition: all 0.2s ease-in-out;
+}
+
+.demo-link {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #000000;
+    align-content: center;
+    padding: 10px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+.demo-link:hover {
+    background-color: #000000cc;
+    box-shadow: 0 0 10px #00000066;
+}

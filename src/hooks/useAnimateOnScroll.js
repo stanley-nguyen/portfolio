@@ -3,7 +3,6 @@ import { useState, useEffect, useRef } from 'react';
 export default function useAnimateOnScroll(threshold = 0.3) {
     const ref = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
-    console.log(ref.current);
 
     useEffect(() => {
         if (!ref.current) return;
