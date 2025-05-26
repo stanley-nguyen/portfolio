@@ -1,6 +1,8 @@
 import './App.css'
+import ContactCard from './components/ContactCard'
 import HomeCard from './components/HomeCard'
 import ProjectsCard from './components/ProjectsCard'
+import WorkCard from './components/WorkCard'
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <div className="cards-container">
         <HomeCard/>
         <ProjectsCard/>
+        <WorkCard/>
+        <ContactCard/>
       </div>
       <footer className="footer">
         <p>© 2025 Stanley Nguyen</p>
