@@ -7,6 +7,7 @@
     box-shadow: 0 4px 24px #000000bb;
     padding: 50px;
     box-sizing: border-box;
+    scroll-margin-top: 150px;
 }
 
 .card-hidden {
