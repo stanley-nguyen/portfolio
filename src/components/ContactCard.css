@@ -96,3 +96,8 @@
     transform: scale(1.05);
     box-shadow: 0 0 8px #ffffff99;
 }
+.submit-button:active {
+    transform: scale(1);
+    box-shadow: inset 0 0 8px #000000d4, 0 0 8px #ffffff66;
+    outline: none;
+}

@@ -35,7 +35,7 @@
 .project-subtitle {
     font-size: 1.2em;
     color: #cccccc;
-    margin-top: 0px;
+    margin: 0;
 }
 
 .project-description {
@@ -81,7 +81,7 @@
 .project-links {
     display: grid;
     padding: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     gap: 10px;
 }
@@ -109,6 +109,8 @@
     align-content: center;
     padding: 10px 16px;
     border-radius: 4px;
+    height: 30px;
+    width: 90px;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s ease;

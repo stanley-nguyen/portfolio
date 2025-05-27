@@ -19,7 +19,7 @@ const HomeCard = () => {
                     <p>
                         Hi, I'm a recent grad from San José State University with a Bachelor's of Science in Computer Science.
                         I enjoy building efficient, user-focused applications and am currently seeking a junior Software Engineer role to grow and contribute.
-                        Feel free to reach out via <a href="mailto:stanleysinguyen@gmail.com" target="_blank" rel="noopener noreferrer">email</a>!
+                        Feel free to reach out via <a href="mailto:stanleysinguyen@gmail.com" target="_blank" rel="noopener noreferrer">email</a> or the <a href="#contact">contact form</a>!
                     </p>
 
                     <div className="links">
