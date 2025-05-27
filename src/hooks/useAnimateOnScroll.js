@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 
-export default function useAnimateOnScroll(threshold = 0.3) {
+export default function useAnimateOnScroll(threshold = 0.2) {
     const ref = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
 

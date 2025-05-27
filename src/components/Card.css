@@ -30,13 +30,6 @@ ul, li {
     margin: 0;
 }
 
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-        transform: translateX(0px) scale(1);
-    }
-}
-
 @media (prefers-reduced-motion) {
     * {
         animation: none !important;
