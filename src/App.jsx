@@ -2,11 +2,13 @@ import './App.css'
 import ContactCard from './components/ContactCard'
 import HomeCard from './components/HomeCard'
 import ProjectsCard from './components/ProjectsCard'
+import StickyNav from './components/StickyNav'
 import WorkCard from './components/WorkCard'
 
 function App() {
   return (
     <>
+      <StickyNav/>
       <div className="cards-container">
         <HomeCard/>
         <ProjectsCard/>

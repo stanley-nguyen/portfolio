@@ -1,0 +1,36 @@
+.sidebar {
+    position: sticky;
+    align-self: flex-start;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2em;
+    width: 210px;
+    height: 10vh;
+    z-index: 9999;
+}
+
+.sticky-nav li {
+    margin: 1.5em 0;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #1f2937d6, #1118279a);
+    width: 100%;
+    height: 1.75em;
+    font-size: 1.3em;
+    padding-left: 0.5em;
+    border: 1px solid #000000bd;
+}
+.sticky-nav li:hover {
+    background: linear-gradient(135deg, #374151, #1f2937);
+    cursor: pointer;
+}
+.sticky-nav li:active {
+    background: linear-gradient(135deg, #1f2937, #111827a1);
+    transform: scale(0.99);
+    box-shadow: inset 0 2px 4px #00000088;
+    transition: transform 0.1s ease;
+}
+.sticky-nav li .bx {
+    margin-right: 0.2em;
+    vertical-align: text-top;
+    margin-top: 0.2em;
+}

@@ -110,7 +110,7 @@
     padding: 10px 16px;
     border-radius: 4px;
     height: 30px;
-    width: 90px;
+    width: 110px;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s ease;
@@ -119,4 +119,9 @@
 .demo-link:hover {
     background-color: #000000cc;
     box-shadow: 0 0 10px #00000066;
+}
+.demo-link .bx {
+    margin-right: 4px;
+    vertical-align: text-top;
+    font-size: 1.2em;
 }

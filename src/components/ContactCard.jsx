@@ -72,7 +72,10 @@ const ContactCard = () => {
                     <label htmlFor="message-box" className="input-label">Message</label>
                 </div>
 
-                <button className="submit-button" type="submit">Submit Form</button>
+                <button className="submit-button" type="submit">
+                    <i class="bx  bx-paper-plane"/> 
+                    Submit Form
+                </button>
 
             </form>
             {showPopup && (
