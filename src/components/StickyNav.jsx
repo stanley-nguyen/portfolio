@@ -24,19 +24,19 @@ const StickyNav = () => {
             <nav className="sticky-nav">
                 <ul>
                     <li onClick={() => window.location.href = "#"}>
-                        <i class='bx  bx-home-alt'/> 
+                        <i className='bx  bx-home-alt'/> 
                         Home
                     </li>
                     <li onClick={() => window.location.href = "#projects"}>
-                        <i class="bx  bx-code-alt"/>
+                        <i className="bx  bx-code-alt"/>
                         Projects
                     </li>
                     <li onClick={() => window.location.href = "#work"}>
-                        <i class='bx  bx-briefcase-alt'/> 
+                        <i className='bx  bx-briefcase-alt'/> 
                         Work Experience
                     </li>
                     <li onClick={() => window.location.href = "#contact"}>
-                        <i class="bx  bx-paper-plane"/> 
+                        <i className="bx  bx-paper-plane"/> 
                         Contact
                     </li>
                 </ul>

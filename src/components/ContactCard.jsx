@@ -73,7 +73,7 @@ const ContactCard = () => {
                 </div>
 
                 <button className="submit-button" type="submit">
-                    <i class="bx  bx-paper-plane"/> 
+                    <i className="bx  bx-paper-plane"/> 
                     Submit Form
                 </button>
 
