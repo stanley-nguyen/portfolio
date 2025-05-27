@@ -3,7 +3,6 @@ import Card from './Card';
 import './ContactCard.css';
 
 const ContactCard = () => {
-    // onSubmit function from https://web3forms.com/#start
     const [result, setResult] = useState("");
     const [showPopup, setShowPopup] = useState(false);
 
@@ -23,6 +22,7 @@ const ContactCard = () => {
         };
     }, [showPopup]);
 
+    // onSubmit starter code from https://web3forms.com/#start
     const onSubmit = async (event) => {
         event.preventDefault();
         setResult("Sending....");
