@@ -43,3 +43,20 @@
 .work-bullets li {
     list-style-type: disc;
 }
+
+@media (max-width: 1280px) {
+    .work-item {
+        padding: 1em;
+        margin: 0.75rem 0;
+    }
+    .work-role {
+        font-size: 1.2em;
+    }
+    .work-company {
+        font-size: 1em;
+    }
+    .work-bullets {
+        margin-left: 1em;
+        font-size: 0.95em;
+    }
+}

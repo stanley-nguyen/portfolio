@@ -26,3 +26,16 @@ html {
   color: #888;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .cards-container {
+    padding: 1em;
+    gap: 2em;
+  }
+}
+@media (max-width: 1280px) {
+  .cards-container {
+    padding: 1em;
+    gap: 4em;
+  }
+}

@@ -131,17 +131,18 @@ path {
         font-size: 0.95em;
     }
     .links {
-        width: 100%;
+        width: 90%;
         gap: 10px;
         padding: 4px;
         height: 32px;
     }
     .about {
+        width: 90%;
         gap: 4vh;
         margin-bottom: 16px;
     }
     .table-of-contents {
-        width: 100%;
+        width: 90%;
         font-size: 1em;
         padding: 10px 2px;
     }
@@ -153,5 +154,6 @@ path {
     }
     .stack {
         padding-bottom: 4vh;
+        width: 90%;
     }
 }

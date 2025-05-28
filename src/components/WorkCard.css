@@ -12,7 +12,7 @@
 .timeline::before {
     content: '';
     position: absolute;
-    left: 45px;
+    left: 1em;
     top: 0;
     bottom: 0;
     width: 4px;
@@ -28,7 +28,7 @@
 
 .timeline-marker {
     position: absolute;
-    left: -2px;
+    left: -1.85em;
     top: 2vh;
     width: 24px;
     height: 24px;

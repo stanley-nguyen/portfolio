@@ -25,19 +25,20 @@ const StickyNav = () => {
                 <ul>
                     <li onClick={() => window.location.href = "#"}>
                         <i className='bx  bx-home-alt'/> 
-                        Home
+                        <span>Home</span>
                     </li>
                     <li onClick={() => window.location.href = "#projects"}>
                         <i className="bx  bx-code-alt"/>
-                        Projects
+                        <span>Projects</span>
                     </li>
                     <li onClick={() => window.location.href = "#work"}>
                         <i className='bx  bx-briefcase-alt'/> 
-                        Work Experience
+                        <span className="nav-long">Work Experience</span>
+                        <span className="nav-short">Work</span>
                     </li>
                     <li onClick={() => window.location.href = "#contact"}>
                         <i className="bx  bx-paper-plane"/> 
-                        Contact
+                        <span>Contact</span>
                     </li>
                 </ul>
             </nav>

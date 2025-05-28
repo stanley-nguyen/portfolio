@@ -125,3 +125,48 @@
     vertical-align: text-top;
     font-size: 1.2em;
 }
+
+@media (max-width: 1280px) {
+    .project-item {
+        grid-template-columns: 1fr;
+        min-width: 0;
+    }
+    .project-title a {
+        font-size: 1.2em;
+    }
+    .project-subtitle {
+        font-size: 1em;
+    }
+    .project-description {
+        font-size: 0.95em;
+        padding: 14px 10px;
+    }
+    .project-stack {
+        gap: 10px;
+    }
+    .tech-item {
+        font-size: 0.85em;
+        padding: 3px 6px;
+    }
+    .project-footer {
+        flex-direction: column;
+        gap: 10px;
+        padding: 8px;
+    }
+    .project-links {
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        padding: 6px;
+    }
+    .gh-link, .demo-link {
+        font-size: 0.95em;
+        width: auto;
+        height: auto;
+        padding: 8px 10px;
+    }
+    .demo-link {
+        width: 100px;
+        padding: 8px 10px;
+        font-size: 0.95em;
+    }
+}
