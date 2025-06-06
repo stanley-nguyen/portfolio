@@ -16,7 +16,7 @@ const projectData = [
         subtitle: "YouTube Transcription Tool",
         role: "Full Stack Developer",
         desc: "A full-stack web app that lets users upload YouTube videos or audio files and automatically transcribes their speech to text using Whisper AI. It allows selection of different transcription models for speed or accuracy.",
-        techStack: ['Vue.js', 'Node.js', 'Whisper AI', 'Transformers.js', 'HTML', 'CSS'],
+        techStack: ['AWS', 'Vue.js', 'Node.js', 'Whisper AI', 'Transformers.js', 'HTML', 'CSS'],
         ghLink: "https://github.com/stanley-nguyen/yt2sub",
         demoLink: "https://yt2sub.onrender.com/"
     },
